@@ -20,6 +20,8 @@ jobs:
         key: ${{ secrets.EC2_SSH_KEY }}
         source: "index.html"
         target: "/var/www/html/"
+        overwrite: true  # 🔥 This line is the key
+
 
 
 
