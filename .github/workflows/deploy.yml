@@ -15,8 +15,15 @@ jobs:
     - name: Copy file to EC2
       uses: appleboy/scp-action@v0.1.4
       with:
-        host: 18.220.186.210
+        host: 18.116.19.188
         username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         source: "index.html"
         target: "/var/www/html/"
+
+
+
+
+
+
+
